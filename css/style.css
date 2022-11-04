@@ -104,3 +104,12 @@ strong{color: #ff0000;}
     color: #767676 !important;
     opacity: 1 !important;
 }
+button[disabled], html input[disabled]{
+    background: #861f41bf !important;
+} 
+.hide{
+    display: none;
+}
+img.active{
+    display: block;
+}
